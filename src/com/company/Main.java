@@ -17,14 +17,14 @@ public class Main {
 
     public static void main(java.lang.String[] args)  {
         Truck truck1 = new Truck(1,"Lexus","",State.BASE);
-        Truck truck2 = new Truck(2,"Lexus","",State.BASE);
-        Truck truck3 = new Truck(3,"Lexus","",State.BASE);
+        Truck truck2 = new Truck(2,"Toyota","",State.BASE);
+        Truck truck3 = new Truck(3,"Mercedes-Benz","",State.BASE);
 
         Truck[] trucks = {truck1,truck2,truck3};
 
-        Driver driver1 = new Driver(1,"b","",State.BASE);
-        Driver driver2 = new Driver(2,"b","",State.BASE);
-        Driver driver3 = new Driver(3,"b","",State.BASE);
+        Driver driver1 = new Driver(1,"Sadyr","");
+        Driver driver2 = new Driver(2,"Baiden","");
+        Driver driver3 = new Driver(3,"Szinpin","");
 
         Driver[] drivers = {driver1,driver2, driver3};
 
